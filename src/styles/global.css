@@ -1,8 +1,5 @@
-@import './tokens.css';
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
 
 /* Font serviti dal sito: nessuna chiamata a terzi. Solo sottoinsieme latino. */
 @font-face {
