@@ -289,7 +289,7 @@ export default function Header({ locale, page }: HeaderProps) {
         aria-label={d.a11y.quickActions}
         role="region"
         aria-hidden={contactVisible || open ? true : undefined}
-        {...(contactVisible || open ? { inert: '' } : {})}
+        {...(contactVisible || open ? { inert: true } : {})}
         className={cx(
           'fixed inset-x-0 bottom-0 z-30 border-t border-[color-mix(in_srgb,var(--tortora)_40%,transparent)] bg-bianco-infisso px-gutter pb-[max(0.75rem,env(safe-area-inset-bottom))] pt-3 transition-transform duration-ui ease-tenda lg:hidden',
           contactVisible || open ? 'translate-y-full' : 'translate-y-0',
